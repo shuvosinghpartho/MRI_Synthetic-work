@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you utilize this codebase, synthetic datasets, or experimental methodologies in your research, please cite our paper."
+title: "Synthetic Medical Image Augmentation and Cross-Domain Robustness in Brain Tumor MRI and Multi-Class Lung Ultrasound"
+authors:
+  - family-names: "Partho"
+    given-names: "Shuvo Singh"
+    affiliation: "Independent Medical AI Researcher"
+version: 1.0.0
+date-released: 2026-10-27
+repository-code: "https://github.com/shuvosinghpartho/MRI_Synthetic-work"
+keywords:
+  - "Medical Imaging"
+  - "Brain Tumor MRI"
+  - "Lung Ultrasound"
+  - "StyleGAN2-ADA"
+  - "Synthetic Augmentation"
+  - "Vision Transformers"
+  - "Hybrid Architectures"
+  - "Cross-Domain Generalization"

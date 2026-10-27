@@ -1,0 +1,50 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large Archives and Compressed Datasets (prevents GitHub 100MB file limit errors)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+
+# Model Weights and Large Checkpoints (>100MB)
+*.pkl
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+
+# Python & Jupyter Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and Temporary Run Files
+*.log
+runs/
+wandb/
+.pytest_cache/

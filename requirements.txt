@@ -1,0 +1,48 @@
+# ==============================================================================
+# Requirements for MRI & Medical Synthetic Augmentation Research Framework
+# Compatible with Python >= 3.10, PyTorch >= 2.0.0, CUDA >= 11.8 / 12.1
+# ==============================================================================
+
+# Core Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+tensorflow>=2.15.0
+keras>=3.0.0
+
+# Transformer & Backbone Architectures
+timm>=0.9.12
+
+# Computational Complexity & Profiling
+ptflops>=0.7.3
+keras-flops>=0.1.2
+
+# Generative Modeling & Compilation
+ninja>=1.11.1
+imageio>=2.31.0
+imageio-ffmpeg==0.4.9
+imagehash>=4.3.1
+
+# Generative Evaluation & Perceptual Metrics
+torchmetrics[image]>=1.3.0
+torch-fidelity>=0.3.0
+lpips>=0.1.4
+prdc>=0.2.0
+
+# Explainable AI (XAI) & Saliency Attribution
+grad-cam>=1.5.0
+lime>=0.2.0.1
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+scikit-image>=0.21.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Visualization & Progress
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.66.0
+requests>=2.31.0
